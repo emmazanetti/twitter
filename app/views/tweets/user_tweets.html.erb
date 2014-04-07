@@ -1,0 +1,10 @@
+<div id= "home"> 
+
+<h4> @<%= @user.username %>  tweets</h4>
+
+<% @tweets.each do |tweet| %>
+
+  <%= render partial: "tweets/tweet", locals: {tweet: tweet} %>
+
+ <% end %>
+</div>

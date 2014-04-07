@@ -1,0 +1,28 @@
+// Place all the styles related to the Tweets controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+p{
+	font-size: 18;
+	color: black;
+}
+p{
+	color: black;
+	font-size: 13;
+}
+.tweet{
+border-style:solid;
+border-color:black;
+-webkit-border-radius: 9px 5px 5px 8px;
+border-radius: 9px 5px 5px 8px;
+padding-top:25px;
+padding-bottom:25px;
+padding-right:50px;
+padding-left:50px;
+margin-top:25px;
+margin-bottom:25px;
+margin-right:25px;
+margin-left:25px;
+
+}
